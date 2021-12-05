@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
-import MySpaces from './components/MySpaces/MySpaces';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import AppRouter from './components/AppRouter/AppRouter';
 
 function App() {
   return (
     <div className="App">
-      <MySpaces/>
+        <AppRouter/>
     </div>
   );
 }
