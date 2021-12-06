@@ -37,7 +37,7 @@ class MyRoom extends React.Component {
   }
 
   fetchInfo(roomId) {
-    if (localStorage.getItem("roomsData") == null) {
+    if (localStorage.getItem("roomsData") == null && navigator.onLine) {
       fetch(
         "https://gist.githubusercontent.com/josejbocanegra/92c90d5f2171739bd4a76d639f1271ea/raw/9effd124c825f7c2a7087d4a50fa4a91c5d34558/rooms.json"
       )
@@ -141,6 +141,11 @@ class MyRoom extends React.Component {
             </Col>
           </Row>
         </Container>
+        <div className="stats">
+          <h2>
+            <FormattedMessage id="Stats" />
+          </h2>
+        </div>
         <PieChart data={this.state.data} outerRadius="900" innnerRadius="0" />
       </div>
     );

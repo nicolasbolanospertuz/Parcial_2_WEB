@@ -1,8 +1,10 @@
-.myRoom {
+.myRoom,
+.stats {
   padding: 25px 0px 0px 0px;
 }
 
-.tittle {
+.tittle,
+.stats {
   text-align: left;
 }
 

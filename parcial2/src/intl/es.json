@@ -1,6 +1,8 @@
 {
-    "MySpaces":"Mis Espacios",
-    "MyRooms":"Mis Habitaciones",
-    "Device":"Dispositivo",
-    "Value":"Valor"
+  "MySpaces": "Mis Espacios",
+  "MyRooms": "Mis Habitaciones",
+  "Device": "Dispositivo",
+  "Value": "Valor",
+  "ChartTitle": "Consumo de energía (kwH) - Hoy",
+  "Stats": "Estadísticas"
 }

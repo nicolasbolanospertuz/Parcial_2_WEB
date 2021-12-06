@@ -1,6 +1,8 @@
 {
-    "MySpaces":"My Spaces",
-    "MyRooms":"My Rooms",
-    "Device":"Device",
-    "Value":"Value"
+  "MySpaces": "My Spaces",
+  "MyRooms": "My Rooms",
+  "Device": "Device",
+  "Value": "Value",
+  "ChartTitle": "Power Usage (kwH) - Today",
+  "Stats": "Stats"
 }
